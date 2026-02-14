@@ -29,20 +29,24 @@ Visit `http://127.0.0.1:8000/`
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/api/students/` | GET | List all students |
-| `/api/students/` | POST | Create student |
-| `/api/students/<id>/` | GET | Get student |
-| `/api/students/<id>/` | PUT | Update student |
-| `/api/students/<id>/` | DELETE | Delete student |
-| `/api/administrators/` | GET | List all admins |
-| `/api/administrators/` | POST | Create admin |
-| `/api/academic-records/` | GET | List all records |
-| `/api/academic-records/` | POST | Create record |
-| `/api/academic-records/<id>/` | GET | Get record |
-| `/api/academic-records/<id>/` | PUT | Update record |
-| `/api/academic-records/<id>/` | DELETE | Delete record |
-| `/api-admin/` | GET | Login for browsable API |
+| `/api/students` | GET | List all students |
+| `/api/students` | POST | Create student |
+| `/api/students/<id>` | GET | Get student |
+| `/api/students/<id>` | PUT | Update student |
+| `/api/students/<id>` | DELETE | Delete student |
+| `/api/administrators` | GET | List all admins |
+| `/api/administrators` | POST | Create admin |
+| `/api/academic-records` | GET | List all records |
+| `/api/academic-records` | POST | Create record |
+| `/api/academic-records/<id>` | GET | Get record |
+| `/api/academic-records/<id>` | PUT | Update record |
+| `/api/academic-records/<id>` | DELETE | Delete record |
+| `/docs/` | GET | Login for browsable API |
 
+
+![alt text](image-4.png)
+
+![RECORDS](image-3.png)
 ## Example Usage
 
 ### Create Student

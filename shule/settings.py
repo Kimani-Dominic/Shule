@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'students',
     'adminstrators',  
     'academicRecords', 
+    'drf_yasg',
     ]
 
 MIDDLEWARE = [
