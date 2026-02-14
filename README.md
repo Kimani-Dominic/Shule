@@ -17,6 +17,8 @@ git clone https://github.com/Kimani-Dominic/Shule
 
 pip install django djangorestframework
 
+pip install -r requirements.txt
+
 python manage.py makemigrations students administrators academicRecords
 python manage.py migrate
 python manage.py createsuperuser
@@ -44,9 +46,10 @@ Visit `http://127.0.0.1:8000/`
 | `/docs/` | GET | Login for browsable API |
 
 
+![RECORDS](image-3.png)
+
 ![alt text](image-4.png)
 
-![RECORDS](image-3.png)
 ## Example Usage
 
 ### Create Student
